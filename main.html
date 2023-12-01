@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Portfolio Sowmmya</title>
+  <meta property="og:title" content="My Portfolio">
+  <meta property="og:description" content="Sowmmya K M - Emerging Computer Engineer">
+  
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+
+
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/sowmmya.png" alt="sowmmya" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Sowmmya">Sowmmya K M</h1>
+
+          <p class="title">Emerging Computer Engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="https://mail.google.com/mail/?view=cm&to=sowmmyacs@gmail.com" class="contact-link" target="_blank">sowmmyacs@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Mobile</p>
+
+              <a href="tel:+918248871119" class="contact-link">+91 8248871119</a>
+
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2003-04-04">April 04, 2003</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Coimbatore, Tamil Nadu, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon class = "socials-icons" name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/sowmmya-murugan-4156b9246/" class="social-link" target="_blank">
+              <ion-icon class = "socials-icons" name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/sow_mmii._/" class="social-link" target="_blank" >
+              <ion-icon class = "socials-icons" name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Background</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Certification</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p align="justify">
+            I am a dedicated student with an unwavering passion for Software development and Web development. Currently pursuing a Bachelor of Engineering in Computer Science at Jansons Institute of Technology, I have consistently demonstrated my commitment to excellence throughout my academic journey with a CGPA of 8.9.
+          </p>
+
+          <p align="justify">
+            I am well-equipped to make a profound impact in the ever-evolving realm of computer science, leveraging my expertise in problem-solving, web development, and design.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Keenly Interested In</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/ps.png
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Problem Solving</h4>
+                <p class="service-item-text"> Analytical thinking and logical approach to overcome challenges effectively.</p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Development</h4>
+                <p class="service-item-text"> Crafting interactive and user-centric online experiences using modern technologies. </p>
+
+              </div>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/ML.png
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Software Developer</h4>
+                <p class="service-item-text">Enthusiastic software developer fueled by a genuine passion for coding and a relentless pursuit of refining skills to contribute to cutting-edge projects and drive technological advancements.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Wordpress Development</h4>
+                <p class="service-item-text">Dedicated WordPress enthusiast with a keen interest in creating visually engaging and user-friendly websites through effective theme customization and plugin integration.
+
+
+
+
+
+
+                </p>
+              </div>
+
+            </li>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+        </div>
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="background">
+
+        <header>
+          <h2 class="h2 article-title">Background</h2>
+        </header>
+
+      <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">JANSONS INSTITUTE OF TECHNOLOGY, COIMBATORE</h4>
+              <p class="timeline-text">Bachelor of Engineering - Computer Science Engineering</p>
+              <span>2020 — 2024</span>
+              <p class="timeline-text">Grade: 8.89 CGPA</p>
+
+            </li>
+
+             <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">VANI VIDYALAYA MATRIC HIGHER SECONDARY SCHOOL, SANKARI</h4>
+              <p class="timeline-text">Class VI - Class XII</p>
+              <span>2014 — 2020</span>
+              <p class="timeline-text">Grade: 92.6% (Secondary)</p>
+              <p class="timeline-text">Grade: 75% (Maths - Computer)- Higher Secondary</p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="stats-chart-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">Campus Ambassador</h4>
+              <p class="timeline-text">Tryst IIT Delhi</p>
+              <span> January 2022 - February 2022</span>
+              <p class="timeline-text"></p>
+            </li>
+
+            <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">Web Development Intern</h4>
+              <p class="timeline-text">Gateway Technologies</p>
+              <span>August 2022 - September 2022 </span>
+              <p class="timeline-text"></p>
+            </li>
+
+            <li class="timeline-item">
+            <h4 class="h4 timeline-item-title">IOT Internship </h4>
+              <p class="timeline-text">IITM Vaayusastra</p>
+              <span>February 2023 - March 2023 </span>
+              <p class="timeline-text"></p>
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">HTML and CSS </h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">JavaScript</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">ReactJs</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Wordpress</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">C</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Java</h5>
+                <data value="70">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Data Structures</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Object Oriented Programming</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+          
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #Certificates
+      -->
+
+      <article class="portfolio" data-page="certification">
+
+        <header>
+          <h2 class="h2 article-title">Certification</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Elite</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Other</button>
+            </li>
+
+          
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Elite</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Other</button>
+              </li>
+
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            
+
+            <li class="project-item  active" data-filter-item data-category="elite">
+              <a href="./assets/certificates/Javascript Essentials" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/certificates/Javascript Essentials.jpg" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Cisco</h3>
+
+                <p class="project-category">JavaScript</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="elite">
+              <a href="./assets/certificates/Python.jpg" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/certificates/Python.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Udemy</h3>
+
+                <p class="project-category">Python</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="elite">
+              <a href="./assets/certificates/Campus Ambassador.png" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/certificates/Campus Ambassador.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">IIT Tryst Delhi</h3>
+
+                <p class="project-category">Campus Ambassador</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="elite">
+              <a href="./assets/certificates/IIT Guwahati.jpg" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/certificates/IIT Guwahati.jpg" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">IIT Guwahati</h3>
+
+                <p class="project-category">Campus Ambassador - Certificate of excellence</p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="elite">
+              <a href="./assets/certificates/Vaayusastra IoT.jpg" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/certificates/Vaayusastra IoT.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Vaayusastra, IITM RP</h3>
+
+                <p class="project-category">Internet of Things</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #projects
+      -->
+
+      <article class="blog" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Projects</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">ONLINE FOOD ORDERING WEBSITE</h4>
+              <p class="timeline-text"> Developed an elegant online food ordering website, showcasing proficiency in HTML, CSS, and JavaScript. Enhanced user satisfaction with a user-friendly interface, ensuring a seamless and enjoyable ordering process.</p>
+              <span>August 2022 - November 2022</span>
+              <p class="timeline-text">Using HTML & CSS , Javascript</p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">SMART PARKING SYSTEM</h4>
+              <p class="timeline-text">Implemented a Smart Car Parking System using IoT technology, enabling drivers to check parking availability via smartphones. Enhanced efficiency for companies by enabling remote supervision and management of parking spaces.</p>
+              <span>February 2023 —  May 2023</span>
+              <p class="timeline-text">Using C, Front End,Back End, AWS, IOT Technologies</p>
+              
+
+            </li>
+
+             <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">DAILY EXPENSES TRACKING SYSTEM</h4>
+              <p class="timeline-text">Developed a Daily Expense Tracking System, addressing the practical requirement for efficient financial organization. Used HTML, CSS, JavaScript, Python, and SQL , ensuring seamless tracking and effortless management of daily expenses.</p>
+              <span>July 2023 —  October 2023</span>
+              <p class="timeline-text">Using Front End,Python,Django,SQL</p>
+              
+
+            </li>
+
+          </ol>
+         
+      </article>
+
+    </div>
+
+  </main>
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
